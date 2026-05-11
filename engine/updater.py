@@ -9,7 +9,7 @@ import threading
 import urllib.request
 from typing import Callable, Optional
 
-CURRENT_VERSION: str = "1.0.0"
+CURRENT_VERSION: str = "2.0.0"
 _RELEASES_API: str = "https://api.github.com/repos/u-pawan/auto_typer/releases/latest"
 _TIMEOUT_S: float = 8.0
 
